@@ -286,7 +286,10 @@ body {
     opacity: 0.8; }
 .message h2 a:hover {
     opacity: 1; }
-
+.message h3{
+    text-align: right;
+    margin-right: 50px;
+}
 @-webkit-keyframes bodyLaugh {
     0% {
         top: 0px; }
