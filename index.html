@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="window">
+    <div class="santa">
+        <div class="head">
+            <div class="face">
+                <div class="redhat">
+                    <div class="whitepart"></div>
+                    <div class="redpart"></div>
+                    <div class="hatball"></div>
+                </div>
+                <div class="eyes"></div>
+                <div class="beard">
+                    <div class="nouse"></div>
+                    <div class="mouth"></div>
+                </div>
+            </div>
+            <div class="ears"></div>
+        </div>
+        <div class="body"></div>
+    </div>
+</div>
+<div class="message">
+    <h1>Merry Christmas!</h1>
+    <h2 class="copyright">pure css Santa Caul made with ♥ by <a href="https://gyu-bin.github.io/ChristMas-main/" target="_blank">Bin</a></h2>
+</div>
+</body>
+<script src='https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js'></script>
+<script>
+    const sf = new Snowflakes({
+        color: "#ffffff", // 색상
+        count: 75, // 갯수
+        minOpacity: 0.7, // 최소 투명도 0: 투명 | 1: 불투명
+        maxOpacity: 0.6 // 최대 투명도
+    });
+</script>
+</html>
